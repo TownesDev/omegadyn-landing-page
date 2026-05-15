@@ -14,7 +14,7 @@ export function SiteHeader() {
         className="site-header__logo-link"
         aria-label="OmegaDyn — home"
       >
-        <img src="/omegadyn-wordmark-light.svg" alt="OmegaDyn" className="site-wordmark" />
+        <img src="/omegadyn-wordmark-light.png" alt="OmegaDyn" className="site-wordmark" />
       </a>
       <nav className="site-header__nav" aria-label="Primary navigation">
         <ul className="site-header__nav-list">
