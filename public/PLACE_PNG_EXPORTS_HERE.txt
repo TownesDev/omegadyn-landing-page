@@ -1,0 +1,13 @@
+Place generated PNG files here using the canonical names from docs/BRAND_ASSET_SPEC.md.
+
+Required first pass:
+- favicon.ico
+- favicon-16x16.png
+- favicon-32x32.png
+- apple-touch-icon.png
+- android-chrome-192x192.png
+- android-chrome-512x512.png
+- og-image.png
+
+Optional later:
+- og-image-press.png

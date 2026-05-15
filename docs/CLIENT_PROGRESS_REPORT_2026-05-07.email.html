@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OmegaDyn Site — Progress Report</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 32px;
+      font-family: Georgia, serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #ffffff;
+      max-width: 680px;
+    "
+  >
+    <!-- INSTRUCTIONS (not part of the email — delete before sending or just don't select it) -->
+    <p
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #888;
+        border: 1px dashed #ccc;
+        padding: 10px;
+        margin-bottom: 32px;
+      "
+    >
+      <strong>To send:</strong> Open this file in a browser (double-click or
+      drag into Chrome/Firefox). Press <strong>Ctrl+A</strong> (or Cmd+A) to
+      select all, then <strong>Ctrl+C</strong> to copy. Paste into Zoho Mail's
+      rich-text composer. Delete this grey instruction box before sending by
+      selecting just this paragraph and pressing Delete. Subject line
+      suggestion:
+      <em>OmegaDyn Publishing Site — Progress Report &amp; Content Request</em>
+    </p>
+
+    <p
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        color: #555;
+        margin-bottom: 4px;
+      "
+    >
+      May 7, 2026
+    </p>
+    <h1
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #111;
+        margin: 0 0 4px;
+      "
+    >
+      OmegaDyn Publishing Site
+    </h1>
+    <h2
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        color: #555;
+        margin: 0 0 32px;
+        letter-spacing: 0.02em;
+      "
+    >
+      Development Progress Report — Phase 1
+    </h2>
+
+    <hr style="border: none; border-top: 1px solid #ddd; margin: 0 0 28px" />
+
+    <p>Hello,</p>
+
+    <p>
+      Just wanted to give you a clear picture of where things stand, what
+      decisions have been made on your behalf (and why), and what I still need
+      from you before the site can go live.
+    </p>
+
+    <p>
+      This work is being done free of charge, but I'm documenting it in full so
+      you have a transparent record of the effort involved and the value of what
+      you're receiving.
+    </p>
+
+    <hr style="border: none; border-top: 1px solid #ddd; margin: 28px 0" />
+
+    <h2
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #111;
+        margin: 0 0 16px;
+      "
+    >
+      What Has Been Built So Far
+    </h2>
+
+    <p>
+      The site structure, codebase foundation, and architectural plan are
+      complete. Here is what is done:
+    </p>
+
+    <p><strong>Foundation</strong></p>
+    <ul style="padding-left: 20px; margin: 0 0 16px">
+      <li style="margin-bottom: 8px">
+        <strong>Tech stack confirmed:</strong> React, TypeScript, and Vite.
+        Battle-tested, widely supported, and free to host. No unnecessary
+        libraries added.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>Brand design tokens locked:</strong> Your color palette
+        (OmegaDyn corporate: black, white, and gold; Omegadyn Press: navy, gold,
+        and white), typography, and spacing system are fully wired into the
+        codebase.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>Fonts selected and integrated:</strong> <em>Kanit</em> for your
+        OMEGADYN wordmark and <em>Manrope</em> for body text. Both available
+        through Google Fonts at no cost.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>Logo asset system established:</strong> Finalized logo files and
+        a complete brand kit will be prepared and delivered by me — no action
+        required from you on this.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>All page components scaffolded:</strong> The full site structure
+        is built and wired together, ready for content and styling.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>Project documentation written:</strong> Architecture decisions,
+        data model, brand spec, and work log are all recorded for long-term
+        sustainability.
+      </li>
+    </ul>
+
+    <p><strong>Page Structure</strong></p>
+    <p>
+      The site is a single scrollable page with four sections and a footer.
+      Navigation links at the top scroll the reader to each section smoothly.
+    </p>
+
+    <table
+      width="100%"
+      cellpadding="10"
+      cellspacing="0"
+      style="
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        margin-bottom: 24px;
+      "
+    >
+      <thead>
+        <tr style="background: #f4f4f4">
+          <th
+            style="
+              border: 1px solid #ddd;
+              text-align: left;
+              font-weight: 700;
+              width: 100px;
+            "
+          >
+            Section
+          </th>
+          <th
+            style="border: 1px solid #ddd; text-align: left; font-weight: 700"
+          >
+            Purpose
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ddd">Hero</td>
+          <td style="border: 1px solid #ddd">
+            First impression — headline, subheadline, and two call-to-action
+            buttons
+          </td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd">About</td>
+          <td style="border: 1px solid #ddd">Your author bio and photo</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd">Books</td>
+          <td style="border: 1px solid #ddd">
+            Your published titles with cover images and Amazon purchase links
+          </td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd">Contact</td>
+          <td style="border: 1px solid #ddd">
+            A simple, elegant email contact prompt
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd">Footer</td>
+          <td style="border: 1px solid #ddd">
+            Copyright notice and Omegadyn Press mark
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr style="border: none; border-top: 1px solid #ddd; margin: 28px 0" />
+
+    <h2
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #111;
+        margin: 0 0 16px;
+      "
+    >
+      Key Decisions Made
+    </h2>
+
+    <p>
+      These decisions were made to keep the site simple, durable, and free to
+      maintain. Each one eliminates a category of ongoing cost or complexity.
+    </p>
+
+    <p>
+      <strong>1) Single scrollable page, not multiple separate pages</strong
+      ><br />
+      Your content fits naturally into one scrollable experience. Multi-page
+      sites require a routing library, more complex navigation, and additional
+      infrastructure. One page is simpler, faster, and just as professional at
+      this scale.
+    </p>
+
+    <p>
+      <strong>2) Contact via email link, no contact form backend</strong><br />
+      A contact form requires a server to receive and forward messages — meaning
+      a paid service or custom backend to maintain. Instead, clicking "Send an
+      Email" opens your mail client with a pre-filled subject line and greeting.
+      Your email address is also displayed visibly as a fallback. This is
+      zero-cost and infinitely sustainable.
+    </p>
+
+    <p>
+      <strong>3) Books managed by the developer, not a CMS</strong><br />
+      In Phase 1, adding or updating a book means editing a data file and
+      pushing a code change. This triggers an automatic redeploy in about 60
+      seconds. No CMS subscription, no admin interface to secure, no third-party
+      platform to depend on.
+    </p>
+
+    <p
+      style="
+        padding: 12px 16px;
+        background: #f9f9f9;
+        border-left: 3px solid #bbb;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+      "
+    >
+      <strong>Phase 2 plan (ready when you need it):</strong> A simple
+      password-protected admin page has been designed and documented — built
+      into the same site, no external services, no recurring cost. We can
+      activate this whenever you want to manage books yourself. The architecture
+      already accounts for it.
+    </p>
+
+    <p>
+      <strong>4) Deployed on Vercel free tier</strong><br />
+      Vercel hosts static sites for free with global CDN, automatic HTTPS, and
+      auto-deploy on every code push. No server to manage, no hosting bill.
+      Connecting your domain is a one-time dashboard step.
+    </p>
+
+    <p>
+      <strong>5) Two separate logos, two separate brand systems</strong><br />
+      You submitted two logo marks. Rather than treat them as interchangeable, a
+      clear system was established:
+    </p>
+    <ul style="padding-left: 20px; margin: 0 0 16px">
+      <li style="margin-bottom: 8px">
+        <strong>OmegaDyn (corporate):</strong> The Omega symbol with crescent
+        mark and OMEGADYN wordmark. Used in the site header, hero, and primary
+        brand contexts. Palette: black, white, and gold.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>Omegadyn Press (publishing imprint):</strong> The book-and-pen
+        emblem. Used in the books section and footer. Palette: navy, gold, and
+        white.
+      </li>
+    </ul>
+    <p>
+      This keeps the corporate brand and the publishing imprint visually
+      distinct and correctly placed throughout the site.
+    </p>
+
+    <hr style="border: none; border-top: 1px solid #ddd; margin: 28px 0" />
+
+    <h2
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #111;
+        margin: 0 0 8px;
+      "
+    >
+      What the Work Has Cost (Market Reference)
+    </h2>
+    <p
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        color: #555;
+        margin: 0 0 16px;
+      "
+    >
+      This engagement is pro-bono. The figures below reflect the market value of
+      work completed to date at a standard independent development rate of
+      <strong>$150/hr</strong>, for your records and awareness.
+    </p>
+
+    <table
+      width="100%"
+      cellpadding="10"
+      cellspacing="0"
+      style="
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        margin-bottom: 16px;
+      "
+    >
+      <thead>
+        <tr style="background: #f4f4f4">
+          <th
+            style="border: 1px solid #ddd; text-align: left; font-weight: 700"
+          >
+            Task
+          </th>
+          <th
+            style="
+              border: 1px solid #ddd;
+              text-align: center;
+              font-weight: 700;
+              white-space: nowrap;
+            "
+          >
+            Hours
+          </th>
+          <th
+            style="
+              border: 1px solid #ddd;
+              text-align: right;
+              font-weight: 700;
+              white-space: nowrap;
+            "
+          >
+            Value
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ddd">
+            Figma export review and scope analysis
+          </td>
+          <td style="border: 1px solid #ddd; text-align: center">0.75</td>
+          <td style="border: 1px solid #ddd; text-align: right">$112.50</td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd">
+            MVP specification and client questionnaire
+          </td>
+          <td style="border: 1px solid #ddd; text-align: center">0.75</td>
+          <td style="border: 1px solid #ddd; text-align: right">$112.50</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd">
+            Brand asset specification (dual logo system)
+          </td>
+          <td style="border: 1px solid #ddd; text-align: center">1.5</td>
+          <td style="border: 1px solid #ddd; text-align: right">$225.00</td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd">Font selection and integration</td>
+          <td style="border: 1px solid #ddd; text-align: center">0.5</td>
+          <td style="border: 1px solid #ddd; text-align: right">$75.00</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd">
+            Project scaffold (build config, TypeScript, Vite)
+          </td>
+          <td style="border: 1px solid #ddd; text-align: center">0.75</td>
+          <td style="border: 1px solid #ddd; text-align: right">$112.50</td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd">
+            CSS design token system and base layout
+          </td>
+          <td style="border: 1px solid #ddd; text-align: center">0.75</td>
+          <td style="border: 1px solid #ddd; text-align: right">$112.50</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd">Site shell and hero section</td>
+          <td style="border: 1px solid #ddd; text-align: center">0.75</td>
+          <td style="border: 1px solid #ddd; text-align: right">$112.50</td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd">
+            Logo placeholder file system — 17 files, canonical naming
+          </td>
+          <td style="border: 1px solid #ddd; text-align: center">0.5</td>
+          <td style="border: 1px solid #ddd; text-align: right">$75.00</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd">
+            Full architectural documentation
+          </td>
+          <td style="border: 1px solid #ddd; text-align: center">1.5</td>
+          <td style="border: 1px solid #ddd; text-align: right">$225.00</td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd">
+            Logo design and brand kit delivery
+            <em>(developer-provided to client)</em>
+          </td>
+          <td style="border: 1px solid #ddd; text-align: center">1.25</td>
+          <td style="border: 1px solid #ddd; text-align: right">$187.50</td>
+        </tr>
+        <tr style="background: #f0f0f0">
+          <td style="border: 1px solid #ddd; font-weight: 700">Total so far</td>
+          <td
+            style="border: 1px solid #ddd; text-align: center; font-weight: 700"
+          >
+            9.0 hrs
+          </td>
+          <td
+            style="border: 1px solid #ddd; text-align: right; font-weight: 700"
+          >
+            $1,350.00
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p style="font-family: Arial, sans-serif; font-size: 14px">
+      <strong
+        >Amount invoiced: $0.00 &nbsp;·&nbsp; Value provided as gift:
+        $1,350.00</strong
+      >
+    </p>
+
+    <hr style="border: none; border-top: 1px solid #ddd; margin: 28px 0" />
+
+    <h2
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #111;
+        margin: 0 0 8px;
+      "
+    >
+      What I Still Need From You
+    </h2>
+    <p>
+      The site will not go live until these items are in hand. Nothing below
+      requires technical knowledge — just your content and decisions.
+    </p>
+
+    <p><strong>Required — Cannot launch without these</strong></p>
+
+    <table
+      width="100%"
+      cellpadding="10"
+      cellspacing="0"
+      style="
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        margin-bottom: 16px;
+      "
+    >
+      <thead>
+        <tr style="background: #f4f4f4">
+          <th
+            style="
+              border: 1px solid #ddd;
+              text-align: center;
+              font-weight: 700;
+              width: 36px;
+            "
+          >
+            #
+          </th>
+          <th
+            style="
+              border: 1px solid #ddd;
+              text-align: left;
+              font-weight: 700;
+              width: 180px;
+            "
+          >
+            What I need
+          </th>
+          <th
+            style="border: 1px solid #ddd; text-align: left; font-weight: 700"
+          >
+            Notes
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ddd; text-align: center">1</td>
+          <td style="border: 1px solid #ddd">
+            <strong>Your contact email address</strong>
+          </td>
+          <td style="border: 1px solid #ddd">
+            Goes into the contact link and is displayed visibly on the page
+          </td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd; text-align: center">2</td>
+          <td style="border: 1px solid #ddd"><strong>Hero headline</strong></td>
+          <td style="border: 1px solid #ddd">
+            One sentence or phrase. What is the first thing you want a visitor
+            to read?
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; text-align: center">3</td>
+          <td style="border: 1px solid #ddd">
+            <strong>Hero subheadline</strong>
+          </td>
+          <td style="border: 1px solid #ddd">
+            One short sentence beneath the headline
+          </td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd; text-align: center">4</td>
+          <td style="border: 1px solid #ddd"><strong>Author bio</strong></td>
+          <td style="border: 1px solid #ddd">
+            2–4 paragraphs in your own words. Can be rough — I'll clean it up
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; text-align: center">5</td>
+          <td style="border: 1px solid #ddd"><strong>Author photo</strong></td>
+          <td style="border: 1px solid #ddd">
+            Any high-quality photo of you. JPG or PNG is fine
+          </td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd; text-align: center">6</td>
+          <td style="border: 1px solid #ddd"><strong>Book listings</strong></td>
+          <td style="border: 1px solid #ddd">
+            For each published title: title, short description, Amazon link, and
+            cover image if available
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; text-align: center">7</td>
+          <td style="border: 1px solid #ddd">
+            <strong>Browser tab title</strong>
+          </td>
+          <td style="border: 1px solid #ddd">
+            What should appear in the browser tab? Example: "OmegaDyn | Omegadyn
+            Press"
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p
+      style="
+        padding: 12px 16px;
+        background: #f9f9f9;
+        border-left: 3px solid #bbb;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+      "
+    >
+      <strong>Logo files:</strong> You do not need to provide these. Final logo
+      assets and a complete brand kit in all required formats will be delivered
+      to you by me as part of this engagement.
+    </p>
+
+    <p>
+      <strong
+        >Optional — Has a sensible default, but your input is better</strong
+      >
+    </p>
+
+    <table
+      width="100%"
+      cellpadding="10"
+      cellspacing="0"
+      style="
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        margin-bottom: 16px;
+      "
+    >
+      <thead>
+        <tr style="background: #f4f4f4">
+          <th
+            style="
+              border: 1px solid #ddd;
+              text-align: center;
+              font-weight: 700;
+              width: 36px;
+            "
+          >
+            #
+          </th>
+          <th
+            style="
+              border: 1px solid #ddd;
+              text-align: left;
+              font-weight: 700;
+              width: 180px;
+            "
+          >
+            What I need
+          </th>
+          <th
+            style="border: 1px solid #ddd; text-align: left; font-weight: 700"
+          >
+            Default if not provided
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ddd; text-align: center">8</td>
+          <td style="border: 1px solid #ddd">
+            <strong>Meta description</strong><br /><span
+              style="font-weight: 400; color: #555"
+              >~150 characters for search engines and link previews</span
+            >
+          </td>
+          <td style="border: 1px solid #ddd">Generic placeholder</td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd; text-align: center">9</td>
+          <td style="border: 1px solid #ddd">
+            <strong>Social share image</strong><br /><span
+              style="font-weight: 400; color: #555"
+              >1200×630 px, shown when your URL is shared on social media</span
+            >
+          </td>
+          <td style="border: 1px solid #ddd">
+            OmegaDyn logo on black background
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; text-align: center">10</td>
+          <td style="border: 1px solid #ddd">
+            <strong>Hero button labels</strong>
+          </td>
+          <td style="border: 1px solid #ddd">
+            "View Books" and "Get in Touch"
+          </td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd; text-align: center">11</td>
+          <td style="border: 1px solid #ddd"><strong>Domain name</strong></td>
+          <td style="border: 1px solid #ddd">TBD</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; text-align: center">12</td>
+          <td style="border: 1px solid #ddd">
+            <strong>Social media profiles</strong>
+          </td>
+          <td style="border: 1px solid #ddd">None shown in footer</td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd; text-align: center">13</td>
+          <td style="border: 1px solid #ddd">
+            <strong>Genre labels for books</strong><br /><span
+              style="font-weight: 400; color: #555"
+              >e.g. "Literary Fiction", "Thriller"</span
+            >
+          </td>
+          <td style="border: 1px solid #ddd">Omitted</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; text-align: center">14</td>
+          <td style="border: 1px solid #ddd">
+            <strong>Personal tagline</strong><br /><span
+              style="font-weight: 400; color: #555"
+              >A short motto or quote beneath your bio</span
+            >
+          </td>
+          <td style="border: 1px solid #ddd">Omitted</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><strong>For upcoming / "Coming Soon" books only</strong></p>
+
+    <table
+      width="100%"
+      cellpadding="10"
+      cellspacing="0"
+      style="
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        margin-bottom: 24px;
+      "
+    >
+      <thead>
+        <tr style="background: #f4f4f4">
+          <th
+            style="
+              border: 1px solid #ddd;
+              text-align: center;
+              font-weight: 700;
+              width: 36px;
+            "
+          >
+            #
+          </th>
+          <th
+            style="border: 1px solid #ddd; text-align: left; font-weight: 700"
+          >
+            What I need
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ddd; text-align: center">15</td>
+          <td style="border: 1px solid #ddd">
+            Title and brief teaser description
+          </td>
+        </tr>
+        <tr style="background: #fafafa">
+          <td style="border: 1px solid #ddd; text-align: center">16</td>
+          <td style="border: 1px solid #ddd">
+            Anticipated release date (approximate is fine)
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; text-align: center">17</td>
+          <td style="border: 1px solid #ddd">Cover image if available</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr style="border: none; border-top: 1px solid #ddd; margin: 28px 0" />
+
+    <h2
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #111;
+        margin: 0 0 16px;
+      "
+    >
+      What Comes Next
+    </h2>
+
+    <p>Once you send the content above, here is what remains before launch:</p>
+    <ol style="padding-left: 20px; margin: 0 0 16px">
+      <li style="margin-bottom: 8px">
+        <strong>CSS styling pass</strong> — The full visual design for all
+        sections. The foundation is in place; sections are not yet styled to
+        completion.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>Logo and brand kit delivery</strong> — Finalized logo files in
+        all required formats, prepared and delivered to you by me.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>Populate real book and author data</strong> — Replace
+        placeholders with your actual content.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>Responsive and accessibility pass</strong> — Verify everything
+        looks correct on mobile and meets accessibility standards.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>SEO metadata</strong> — Page title, meta description, and social
+        share image.
+      </li>
+      <li style="margin-bottom: 8px">
+        <strong>Vercel deploy setup</strong> — Connect the repository and
+        configure your domain.
+      </li>
+    </ol>
+
+    <p>
+      Estimated remaining work once all content is received: approximately
+      <strong>5–8 development hours</strong>, depending on the number of book
+      entries and any design refinements.
+    </p>
+
+    <hr style="border: none; border-top: 1px solid #ddd; margin: 28px 0" />
+
+    <p>
+      No urgency at all — the architecture is solid and the site is ready to
+      receive your content whenever you have it together. Just reply to this
+      email with whatever you have and we'll go from there.
+    </p>
+
+    <p>
+      Donovan Townes<br />
+      <a href="mailto:donovan@townes.dev" style="color: #1a1a1a"
+        >donovan@townes.dev</a
+      >
+    </p>
+
+    <p
+      style="
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #999;
+        border-top: 1px solid #eee;
+        padding-top: 16px;
+        margin-top: 32px;
+      "
+    >
+      Development checkpoint report — May 7, 2026. All decisions documented here
+      remain open to discussion. Nothing is permanent until you approve it.
+    </p>
+  </body>
+</html>

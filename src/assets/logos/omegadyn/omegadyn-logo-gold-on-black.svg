@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="135.46666mm"
+   height="135.46666mm"
+   viewBox="0 0 135.46666 135.46666"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="omegadyn-logo-gold-on-blacksvg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.36756309"
+     inkscape:cx="111.54548"
+     inkscape:cy="749.53118"
+     inkscape:window-width="933"
+     inkscape:window-height="1211"
+     inkscape:window-x="2277"
+     inkscape:window-y="637"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-59.002083,-37.041667)">
+    <g
+       id="g31"
+       transform="translate(-269.11617,-309.11229)">
+      <rect
+         style="fill:#161615;fill-opacity:1;stroke-width:0.830176;stroke-linecap:round;stroke-linejoin:round"
+         id="rect17"
+         width="135.46666"
+         height="135.46666"
+         x="328.11826"
+         y="346.15396" />
+      <g
+         id="g21"
+         transform="translate(263.55992,285.25971)"
+         style="fill:#c49e55;fill-opacity:1">
+        <g
+           id="g20"
+           transform="translate(-1.9803359,220.96468)"
+           style="fill:#c49e55;fill-opacity:1">
+          <path
+             id="path17"
+             style="opacity:1;fill:#c49e55;fill-opacity:1;stroke-width:1.3913;stroke-linecap:round"
+             d="m 134.272,-136.34704 a 30.960819,28.357609 0 0 0 -30.9609,28.35745 30.960819,28.357609 0 0 0 24.73803,27.778655 v -6.89828 a 20.083042,20.848068 0 0 1 -13.86014,-19.822045 20.083042,20.848068 0 0 1 20.08301,-20.84782 20.083042,20.848068 0 0 1 20.08301,20.84782 20.083042,20.848068 0 0 1 -13.6772,19.758995 v 6.92671 a 30.960819,28.357609 0 0 0 24.55509,-27.744035 30.960819,28.357609 0 0 0 -30.9609,-28.35745 z" />
+          <path
+             style="opacity:1;fill:#c49e55;fill-opacity:1;stroke-width:1.33426;stroke-linecap:round"
+             d="m 140.67781,-82.540505 v 8.764321 h 23.76651 v -8.764321 z"
+             id="path18" />
+          <path
+             style="opacity:1;fill:#c49e55;fill-opacity:1;stroke-width:1.33426;stroke-linecap:round"
+             d="m 103.7643,-82.540505 v 8.764321 h 24.28483 v -8.764321 z"
+             id="path19" />
+          <path
+             id="path20"
+             style="opacity:1;fill:#c49e55;fill-opacity:1;stroke-width:1.39836;stroke-linecap:round"
+             d="m 136.26361,-120.98518 a 12.014847,12.014847 0 0 0 -12.01477,12.01528 12.014847,12.014847 0 0 0 12.01477,12.014775 12.014847,12.014847 0 0 0 4.70256,-0.9586 12.533392,12.533392 0 0 1 -8.93899,-12.007015 12.533392,12.533392 0 0 1 6.31641,-10.88306 12.014847,12.014847 0 0 0 -2.07998,-0.18138 z" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5778px;line-height:0;font-family:Kanit;-inkscape-font-specification:'Kanit, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:-0.224856px;word-spacing:-0.887591px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#c49e55;fill-opacity:1;stroke-width:1.27222;stroke-linecap:round;stroke-linejoin:round"
+           x="73.732933"
+           y="172.41177"
+           id="text20"><tspan
+             sodipodi:role="line"
+             id="tspan20"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5778px;font-family:Kanit;-inkscape-font-specification:'Kanit, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c49e55;fill-opacity:1;stroke-width:1.27222"
+             x="73.732933"
+             y="172.41177">OMEGADYN</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
