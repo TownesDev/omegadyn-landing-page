@@ -1,4 +1,3 @@
-import omegadynWordmark from "../assets/logos/omegadyn/omegadyn-wordmark-light.svg";
 import { BrandIcon } from "./BrandIcon";
 
 const navLinks = [
@@ -15,7 +14,7 @@ export function SiteHeader() {
         className="site-header__logo-link"
         aria-label="OmegaDyn — home"
       >
-        <img src={omegadynWordmark} alt="OmegaDyn" className="site-wordmark" />
+        <img src="/omegadyn-wordmark-light.svg" alt="OmegaDyn" className="site-wordmark" />
       </a>
       <nav className="site-header__nav" aria-label="Primary navigation">
         <ul className="site-header__nav-list">
