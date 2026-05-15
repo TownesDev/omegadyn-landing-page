@@ -74,8 +74,9 @@ a {
 }
 
 .site-wordmark {
-  width: clamp(8.6rem, 36vw, 13.2rem);
+  width: clamp(8rem, 35vw, 12.5rem);
   height: auto;
+  display: block;
 }
 
 .site-header__nav {
